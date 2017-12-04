@@ -4,11 +4,11 @@
 
 
 # Site
-title: 谢泽
-subtitle: 注定孤独终老
+title: 狮老博客
+subtitle: 前端开发技术积累
 description: 前端开发
 author: 谢泽
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -17,6 +17,15 @@ url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+# Favicon
+favicon: /favicon.ico
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Directory
 source_dir: source
@@ -73,7 +82,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
